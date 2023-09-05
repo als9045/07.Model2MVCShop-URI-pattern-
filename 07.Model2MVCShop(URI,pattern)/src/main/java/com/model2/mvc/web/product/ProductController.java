@@ -130,6 +130,7 @@ public class ProductController {
 		//Business Logic
 		productService.updateProduct(product);
 		
+		
 		return "forward:/product/listProuct.jsp?";
 	}
 
